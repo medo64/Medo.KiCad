@@ -1,11 +1,11 @@
-(footprint "J ICSP PIC Pogo (6w)" (version 20221018) (generator pcbnew)
+(footprint "ICSP PIC Pogo (6w)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "J?" (at 0 -1.37 unlocked) (layer "F.SilkS") hide
+  (fp_text reference "ICSP" (at 0 -1.37 unlocked) (layer "F.SilkS") hide
       (effects (font (size 0.7 0.6) (thickness 0.1)) (justify bottom))
     (tstamp a7136a5f-4535-4f6b-9eba-5d4e26889b32)
   )
-  (fp_text value "J ICSP PIC Pogo (6w)" (at 0 1.47 unlocked) (layer "F.Fab") hide
+  (fp_text value "Microchip PIC" (at 0 1.47 unlocked) (layer "F.Fab") hide
       (effects (font (size 0.7 0.6) (thickness 0.1) bold) (justify top))
     (tstamp 77fbe73c-e4e5-47ea-8be4-5cb1063bd36c)
   )
