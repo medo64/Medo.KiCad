@@ -1,4 +1,4 @@
-(footprint "P USB 2.0 (4w)" (version 20221018) (generator pcbnew)
+(footprint "P USB A 2.0 (4w)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "P?" (at 0 -4.2 unlocked) (layer "F.SilkS")
