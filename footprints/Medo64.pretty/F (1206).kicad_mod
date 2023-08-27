@@ -1,11 +1,12 @@
 (footprint "F (1206)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "Bel Fuse 0685T1000-01")
   (attr smd)
   (fp_text reference "F?" (at 0 -1.35 unlocked) (layer "F.SilkS") hide
       (effects (font (size 0.7 0.6) (thickness 0.1)) (justify bottom))
     (tstamp 708959d6-222d-4814-b30d-3b9b0063bd8f)
   )
-  (fp_text value "500mA" (at 0 1.35 unlocked) (layer "F.SilkS")
+  (fp_text value "1000mA" (at 0 1.35 unlocked) (layer "F.SilkS")
       (effects (font (size 0.7 0.6) (thickness 0.1)) (justify top))
     (tstamp 39395377-b265-447d-943b-efbd12121826)
   )
