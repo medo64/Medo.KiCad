@@ -8,7 +8,7 @@
 |   Minimum clearance        | 0.20 mm | 0.1524 mm | 0.1016 mm |
 |   Minimum track width      | 0.20 mm | 0.1524 mm | 0.1016 mm |
 |   Minimum connection width | 0.20 mm |      -    |      -    |
-|   Minimum annular width    | 0.16 mm | 0.1270 mm | 0.1524 mm |
+|   Minimum annular width    | 0.15 mm | 0.1270 mm | 0.1524 mm |
 |   Minimum via diameter     | 0.60 mm | 0.5080 mm | 0.5048 mm |
 |   Copper to hole clearance | 0.25 mm |      -    |      -    |
 |   Copper to edge clearance | 0.40 mm | 0.3810 mm | 0.2500 mm |
