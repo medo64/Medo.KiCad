@@ -34,9 +34,9 @@
   (fp_line (start 2.25 2.25) (end -2.25 2.25)
     (stroke (width 0.1) (type default)) (layer "User.7") (tstamp 44420ec5-5c9a-4cf8-842f-c92fada39df0))
   (pad "1" thru_hole circle (at -3.25 -2.25) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp e73dd3bc-6608-4b74-8f72-db05453b15d1))
-  (pad "2" thru_hole circle (at 3.25 -2.25) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 0ef719c6-261c-48fb-b554-921ac676f5a2))
-  (pad "3" thru_hole circle (at -3.25 2.25) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 3b6e24be-a8aa-4a4f-acc6-962486c0cf77))
-  (pad "4" thru_hole circle (at 3.25 2.25) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp c3c797e1-9d30-4bc2-8f9b-8ca70872919f))
+  (pad "1" thru_hole circle (at 3.25 -2.25) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 0ef719c6-261c-48fb-b554-921ac676f5a2))
+  (pad "2" thru_hole circle (at -3.25 2.25) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 3b6e24be-a8aa-4a4f-acc6-962486c0cf77))
+  (pad "2" thru_hole circle (at 3.25 2.25) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp c3c797e1-9d30-4bc2-8f9b-8ca70872919f))
   (model ":KICAD7_3DMODEL_DIR:Button_Switch_THT.3dshapes/SW_PUSH_6mm_H7.3mm.step"
     (offset (xyz -3.25 2.25 0))
     (scale (xyz 1 1 1))
