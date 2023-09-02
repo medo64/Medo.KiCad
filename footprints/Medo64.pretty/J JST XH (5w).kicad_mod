@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "JST B5B-XH-A")
   (attr through_hole)
-  (fp_text reference "J?" (at 0 -0.9 unlocked) (layer "F.SilkS") hide
+  (fp_text reference "J?" (at 0 -0.9 unlocked) (layer "F.SilkS")
       (effects (font (size 0.7 0.6) (thickness 0.1)) (justify bottom))
     (tstamp bec79cc3-c18e-4f33-8f63-02de5a4d133f)
   )
