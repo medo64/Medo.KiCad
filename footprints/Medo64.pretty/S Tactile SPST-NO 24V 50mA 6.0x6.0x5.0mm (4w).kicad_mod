@@ -1,8 +1,7 @@
-(footprint "S Tactile SPST-NO 6.0x6.0x7.3mm (4w)" (version 20221018) (generator pcbnew)
+(footprint "S Tactile SPST-NO 24V 50mA 6.0x6.0x5.0mm (4w)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "TE Connectivity 1-1825910-8 [450-1647-ND]")
+  (descr "TE Connectivity 1825910-7 [450-1804-ND]")
   (attr through_hole)
-  (private_layers "User.7")
   (fp_text reference "S?" (at 0 0 unlocked) (layer "F.SilkS")
       (effects (font (size 0.7 0.6) (thickness 0.1)))
     (tstamp bec79cc3-c18e-4f33-8f63-02de5a4d133f)
@@ -37,7 +36,7 @@
   (pad "1" thru_hole circle (at 3.25 -2.25) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 0ef719c6-261c-48fb-b554-921ac676f5a2))
   (pad "2" thru_hole circle (at -3.25 2.25) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 3b6e24be-a8aa-4a4f-acc6-962486c0cf77))
   (pad "2" thru_hole circle (at 3.25 2.25) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp c3c797e1-9d30-4bc2-8f9b-8ca70872919f))
-  (model ":KICAD7_3DMODEL_DIR:Button_Switch_THT.3dshapes/SW_PUSH_6mm_H7.3mm.step"
+  (model ":KICAD7_3DMODEL_DIR:Button_Switch_THT.3dshapes/SW_PUSH_6mm_H5mm.step"
     (offset (xyz -3.25 2.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
