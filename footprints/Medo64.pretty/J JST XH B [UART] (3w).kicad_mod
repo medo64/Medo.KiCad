@@ -1,6 +1,6 @@
-(footprint "J JST XH [UART] (3w)" (version 20221018) (generator pcbnew)
+(footprint "J JST XH B [UART] (3w)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "JST B3B-XH-A")
+  (descr "JST B3B-XH-A [455-B3B-XH-A-ND]")
   (attr through_hole)
   (fp_text reference "J?" (at 0 -1.4 unlocked) (layer "F.SilkS")
       (effects (font (size 0.8 0.6) (thickness 0.15) bold))

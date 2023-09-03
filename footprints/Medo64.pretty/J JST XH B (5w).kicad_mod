@@ -1,6 +1,6 @@
-(footprint "J JST XH (5w)" (version 20221018) (generator pcbnew)
+(footprint "J JST XH B (5w)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "JST B5B-XH-A")
+  (descr "JST B5B-XH-A [455-B5B-XH-A-ND]")
   (attr through_hole)
   (fp_text reference "J?" (at 0 -1.4 unlocked) (layer "F.SilkS")
       (effects (font (size 0.8 0.6) (thickness 0.15) bold))
