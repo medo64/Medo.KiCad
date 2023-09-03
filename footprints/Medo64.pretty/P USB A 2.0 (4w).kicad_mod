@@ -64,9 +64,9 @@
     (thermal_bridge_angle 45) (tstamp 71e0e9a9-cb9a-4a74-8542-e512e046fbfa))
   (pad "4" smd roundrect (at -3.5 -2.6) (size 1.2 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 70e7b4fc-1901-496a-9a2b-4547f086dcfe))
-  (pad "5" thru_hole oval (at -5.85 0) (size 1.3 3.2) (drill oval 0.7 2.5) (layers "*.Cu" "*.Mask")
+  (pad "5" thru_hole oval (at -5.85 0) (size 1.3 3.2) (drill oval 0.7 2.5) (layers "*.Cu" "*.Mask" "F.Paste")
     (thermal_bridge_angle 45) (tstamp f62cff98-a6cb-4989-a4a9-2c9ad607a8ec))
-  (pad "5" thru_hole oval (at 5.85 0) (size 1.3 3.2) (drill oval 0.7 2.5) (layers "*.Cu" "*.Mask")
+  (pad "5" thru_hole oval (at 5.85 0) (size 1.3 3.2) (drill oval 0.7 2.5) (layers "*.Cu" "*.Mask" "F.Paste")
     (thermal_bridge_angle 45) (tstamp eef5731b-ffc6-4437-8623-11b1a71e5376))
   (model "../../3dmodels/Medo64-SMD.3dshapes/480372200.step"
     (offset (xyz 0 -8.375 0))
