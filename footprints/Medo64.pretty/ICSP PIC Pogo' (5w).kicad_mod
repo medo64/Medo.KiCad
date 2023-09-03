@@ -1,7 +1,7 @@
 (footprint "ICSP PIC Pogo' (5w)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "ICSP" (at 0 -2.1 unlocked) (layer "F.SilkS") hide
+  (fp_text reference "ICSP" (at 0 -2 unlocked) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.6) (thickness 0.15) bold))
     (tstamp a7136a5f-4535-4f6b-9eba-5d4e26889b32)
   )
@@ -17,7 +17,7 @@
       (effects (font (size 0.13 0.07) (thickness 0.01) bold) (justify top))
     (tstamp 13d23433-9e50-40b7-ac07-40ff44e6aa19)
   )
-  (fp_text user "CLK" (at 5.08 -1.07 unlocked) (layer "Cmts.User")
+  (fp_text user "CLK" (at 5.08 -1 unlocked) (layer "Cmts.User")
       (effects (font (size 0.13 0.07) (thickness 0.01)) (justify top))
     (tstamp 2e5ab4c2-835b-4920-a71c-6cb23abb80c0)
   )
