@@ -1,12 +1,12 @@
 (footprint "JP (0805)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "JP?" (at 0 -1.05 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 0.7 0.6) (thickness 0.1)) (justify bottom))
+  (fp_text reference "JP?" (at 0 -1.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 0.8 0.6) (thickness 0.15) bold))
     (tstamp 708959d6-222d-4814-b30d-3b9b0063bd8f)
   )
-  (fp_text value "Jumper" (at 0 1.15 unlocked) (layer "F.SilkS")
-      (effects (font (size 0.7 0.6) (thickness 0.1)) (justify top))
+  (fp_text value "Jumper" (at 0 1.6 unlocked) (layer "F.SilkS")
+      (effects (font (size 0.8 0.6) (thickness 0.15) bold))
     (tstamp 39395377-b265-447d-943b-efbd12121826)
   )
   (fp_rect (start -1.65 -0.85) (end 1.65 0.85)

@@ -1,12 +1,12 @@
 (footprint "TP Via (D0.6-0.3)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
-  (fp_text reference "TP?" (at 0 -0.7 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 0.7 0.6) (thickness 0.1)) (justify bottom))
+  (fp_text reference "TP?" (at 0 -1.2 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 0.8 0.6) (thickness 0.15)))
     (tstamp bec79cc3-c18e-4f33-8f63-02de5a4d133f)
   )
-  (fp_text value "TP" (at 0 0.75 unlocked) (layer "F.SilkS")
-      (effects (font (size 0.7 0.6) (thickness 0.1) bold italic) (justify top))
+  (fp_text value "TP" (at 0 1.3 unlocked) (layer "F.SilkS")
+      (effects (font (size 0.8 0.6) (thickness 0.15) bold italic))
     (tstamp 06597a92-7147-4eb6-a011-4f3100c59555)
   )
   (fp_circle (center 0 0) (end 0.425 0)
