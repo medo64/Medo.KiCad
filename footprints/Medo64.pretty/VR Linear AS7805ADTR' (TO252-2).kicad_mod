@@ -1,4 +1,4 @@
-(footprint "VR Linear AS7805ADTR (TO252-2)'" (version 20221018) (generator pcbnew)
+(footprint "VR Linear AS7805ADTR' (TO252-2)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "AS7805ADTR-G1")
   (attr smd)

@@ -1,4 +1,4 @@
-(footprint "VR Linear AS78L05RTR (SOT89-3)'" (version 20221018) (generator pcbnew)
+(footprint "VR Linear AS78L05RTR' (SOT89-3)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "AS78L05RTR-E1")
   (attr smd)
