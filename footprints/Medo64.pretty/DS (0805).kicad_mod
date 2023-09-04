@@ -10,6 +10,10 @@
       (effects (font (size 0.8 0.6) (thickness 0.15) bold))
     (tstamp 39395377-b265-447d-943b-efbd12121826)
   )
+  (fp_text user "C" (at -0.35 -0.5) (layer "Cmts.User")
+      (effects (font (size 0.13 0.07) (thickness 0.01) bold))
+    (tstamp 098d2de8-a746-483d-becb-9f9822ae55e2)
+  )
   (fp_rect (start -1.55 -0.85) (end 1.55 0.85)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp 3b25f1a4-3a56-46c4-8b0b-810d331baf97))
   (fp_poly
