@@ -34,4 +34,9 @@
     (stroke (width 0.01) (type dash_dot)) (fill none) (layer "F.Fab") (tstamp 9247f909-e41e-4c54-8985-a0b7ba3b8ae7))
   (pad "1" thru_hole circle (at -3.2 0 90) (size 1.8 1.8) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 0ef719c6-261c-48fb-b554-921ac676f5a2))
   (pad "2" thru_hole circle (at 3.2 0 90) (size 1.8 1.8) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp c3c797e1-9d30-4bc2-8f9b-8ca70872919f))
+  (model "../../3dmodels/Medo64-SMD.3dshapes/PTS636SK50LFS.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
