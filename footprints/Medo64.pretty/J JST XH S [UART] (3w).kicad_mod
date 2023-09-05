@@ -32,7 +32,7 @@
     (stroke (width 0.2) (type solid)) (fill solid) (layer "F.SilkS") (tstamp fcfe4b85-7f07-4263-8396-43910cbcaca3))
   (fp_rect (start 2.85 5.95) (end 2.15 8.95)
     (stroke (width 0.2) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 1e203657-9ebc-43a2-a610-dea922628486))
-  (fp_rect (start -5.05 -2.5) (end 5.05 9.3)
+  (fp_rect (start -5.05 -2.4) (end 5.05 9.2)
     (stroke (width 0.01) (type dash)) (fill none) (layer "F.CrtYd") (tstamp 614848d0-5a15-44f8-9994-e39f1756f014))
   (fp_rect (start -4.95 -2.3) (end 4.95 9.2)
     (stroke (width 0.01) (type dash_dot)) (fill none) (layer "F.Fab") (tstamp b840074a-c477-4420-b6fd-3c1b4a5cbba1))
