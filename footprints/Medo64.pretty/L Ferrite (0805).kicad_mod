@@ -2,11 +2,11 @@
   (layer "F.Cu")
   (descr "RESC2013X70N")
   (attr smd)
-  (fp_text reference "L?" (at 0 -1.6 unlocked) (layer "F.SilkS")
+  (fp_text reference "L?" (at 0 -1.6) (layer "F.SilkS")
       (effects (font (size 0.8 0.6) (thickness 0.15)))
     (tstamp 708959d6-222d-4814-b30d-3b9b0063bd8f)
   )
-  (fp_text value "40R" (at 0 1.7 unlocked) (layer "F.SilkS") hide
+  (fp_text value "40R" (at 0 1.7) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.6) (thickness 0.15)))
     (tstamp 39395377-b265-447d-943b-efbd12121826)
   )
