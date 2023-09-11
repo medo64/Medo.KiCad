@@ -1,4 +1,4 @@
-(footprint "U Interface MCP2221 (SOIC-14)" (version 20221018) (generator pcbnew)
+(footprint "U Transciever UART MCP2221 (SOIC-14)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Microchip MCP2221A-I/SL")
   (tags "SOIC127P600X175-14AN")

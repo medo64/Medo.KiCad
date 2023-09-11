@@ -1,4 +1,4 @@
-(footprint "U Interface SP485E (SOIC-8)" (version 20221018) (generator pcbnew)
+(footprint "U Transciever RS485 SP485E (SOIC-8)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "MaxLinear SP485EEN-L")
   (tags "SOIC127P600X175-8AN")

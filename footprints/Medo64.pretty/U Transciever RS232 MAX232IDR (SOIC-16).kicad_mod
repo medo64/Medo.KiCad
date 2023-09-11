@@ -1,4 +1,4 @@
-(footprint "U Interface MAX232IDR (SOIC-16)" (version 20221018) (generator pcbnew)
+(footprint "U Transciever RS232 MAX232IDR (SOIC-16)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Texas Instruments MAX232IDR")
   (tags "SOIC127P600X175-16AN")
