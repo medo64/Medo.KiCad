@@ -1,6 +1,6 @@
 (footprint "R (0805)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "RESC2013X70N")
+  (tags "RESC2013X70N")
   (attr smd)
   (fp_text reference "R?" (at 0 -1.6) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.6) (thickness 0.15)))

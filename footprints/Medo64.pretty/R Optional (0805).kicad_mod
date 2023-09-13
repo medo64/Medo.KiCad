@@ -1,7 +1,7 @@
 (footprint "R Optional (0805)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "RESC2013X70N")
-  (attr smd)
+  (tags "RESC2013X70N")
+  (attr smd exclude_from_bom)
   (fp_text reference "R?" (at 0 -1.6) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.6) (thickness 0.15)))
     (tstamp 708959d6-222d-4814-b30d-3b9b0063bd8f)
