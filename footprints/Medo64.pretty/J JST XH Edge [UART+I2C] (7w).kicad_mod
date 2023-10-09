@@ -1,4 +1,4 @@
-(footprint "J JST XH Sideway [UART+I2C] (7w)" (version 20221018) (generator pcbnew)
+(footprint "J JST XH Edge [UART+I2C] (7w)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "JST B3B-XH-A [455-B3B-XH-A-ND]")
   (attr through_hole)

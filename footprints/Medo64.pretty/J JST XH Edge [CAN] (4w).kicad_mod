@@ -1,4 +1,4 @@
-(footprint "J JST XH Sideway [CAN] (4w)" (version 20221018) (generator pcbnew)
+(footprint "J JST XH Edge [CAN] (4w)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "JST B4B-XH-A [455-B4B-XH-A-ND]")
   (attr through_hole)
