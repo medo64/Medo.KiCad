@@ -22,6 +22,10 @@
       (effects (font (size 0.13 0.07) (thickness 0.01) bold))
     (tstamp 6ee7edcf-2915-4282-b21a-50e4e66e7351)
   )
+  (fp_text user "N/C" (at 3.75 -1.65) (layer "Cmts.User" knockout)
+      (effects (font (size 0.13 0.07) (thickness 0.01) bold))
+    (tstamp b54dd668-0e7e-485a-8bee-05ee4fc561fb)
+  )
   (fp_rect (start -6.05 2.1) (end 6.05 9.1)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp 2fcb7d93-d38d-47d6-87c5-750322a72da8))
   (fp_rect (start -4.5 5.1) (end -3 9.1)
@@ -38,6 +42,7 @@
     (chamfer_ratio 0.2) (chamfer top_left bottom_left) (tstamp 562e374a-375f-4fd1-aba5-1ef44e5022a7))
   (pad "2" smd roundrect (at -1.25 0) (size 1.2 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c3c797e1-9d30-4bc2-8f9b-8ca70872919f))
   (pad "3" smd roundrect (at 1.25 0) (size 1.2 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 06e9f537-3413-4f8f-a401-54462f3d7e9e))
+  (pad "4" smd roundrect (at 3.75 0) (size 1.2 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 4fc5a4d6-82af-4ec9-8f90-7291414924b4))
   (model ":KICAD7_3DMODEL_DIR:Connector_JST.3dshapes/JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.step"
     (offset (xyz -3.75 -2 0.25))
     (scale (xyz 1 1 1))
