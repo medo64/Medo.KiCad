@@ -3,7 +3,7 @@
   (descr "Microchip PIC16F1455-I/SL")
   (tags "SOIC127P600X175-14AN")
   (attr smd)
-  (fp_text reference "U?" (at 0 -5) (layer "F.SilkS") hide
+  (fp_text reference "U?" (at 0 -5) (layer "F.SilkS")
       (effects (font (size 0.8 0.6) (thickness 0.15)))
     (tstamp 708959d6-222d-4814-b30d-3b9b0063bd8f)
   )
