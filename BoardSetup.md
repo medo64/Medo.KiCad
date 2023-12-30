@@ -22,6 +22,7 @@
 |   Minimum item clearance   | 0.00 mm |      -    |      -    |
 |   Minimum text height      | 0.80 mm |      -    | 0.8000 mm |
 |   Minimum text thickness   | 0.15    |      -    | 0.1500 mm |
+| Solder mask expansion      | 0.05 mm |           |           |
 
 
 ## Predefined Sizes
