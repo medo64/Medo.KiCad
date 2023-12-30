@@ -22,7 +22,16 @@
 |   Minimum item clearance   | 0.00 mm |      -    |      -    |
 |   Minimum text height      | 0.80 mm |      -    | 0.8000 mm |
 |   Minimum text thickness   | 0.15    |      -    | 0.1500 mm |
-| Solder mask expansion      | 0.05 mm |           |           |
+|                            |         |           |           |
+| Solder mask/paste          |         |           |           |
+|   Solder mask expansion    | 0.05 mm |           |           |
+|                            |         |           |           |
+| Copper zone                |         |           |           |
+|   Clearance                | 0.30 mm |           |           |
+|   Minimum width            | 0.30 mm |           |           |
+|   Pad connections          | None    |           |           |
+|   Thermal relief gap       | 0.50 mm |           |           |
+|   Thermal spoke width      | 0.50 mm |           |           |
 
 
 ## Predefined Sizes
