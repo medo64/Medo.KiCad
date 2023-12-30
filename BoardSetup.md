@@ -2,36 +2,40 @@
 
 ## Constraints
 
-| Setting                    | Value   | OSH Park  | PCBWay    |
-|----------------------------|--------:|----------:|----------:|
-| Copper                     |         |           |           |
-|   Minimum clearance        | 0.20 mm | 0.1524 mm | 0.1016 mm |
-|   Minimum track width      | 0.20 mm | 0.1524 mm | 0.1016 mm |
-|   Minimum connection width | 0.20 mm |      -    |      -    |
-|   Minimum annular width    | 0.15 mm | 0.1270 mm | 0.1524 mm |
-|   Minimum via diameter     | 0.60 mm | 0.5080 mm | 0.5048 mm |
-|   Copper to hole clearance | 0.25 mm |      -    |      -    |
-|   Copper to edge clearance | 0.40 mm | 0.3810 mm | 0.2500 mm |
-| Holes                      |         |           |           |
-|   Minimum through hole     | 0.30 mm | 0.2540 mm |      -    |
-|   Hole to hole clearance   | 0.42 mm |      -    | 0.4064 mm |
-| uVias                      |         |           |           |
-|   Minimum uVia diameter    | 0.51 mm |      -    |      -    |
-|   Minimum uVia hole        | 0.30 mm |      -    |      -    |
-| Silkscreen                 |         |           |           |
-|   Minimum item clearance   | 0.00 mm |      -    |      -    |
-|   Minimum text height      | 0.80 mm |      -    | 0.8000 mm |
-|   Minimum text thickness   | 0.15    |      -    | 0.1500 mm |
-|                            |         |           |           |
-| Solder mask/paste          |         |           |           |
-|   Solder mask expansion    | 0.05 mm |           |           |
-|                            |         |           |           |
-| Copper zone                |         |           |           |
-|   Clearance                | 0.30 mm |           |           |
-|   Minimum width            | 0.30 mm |           |           |
-|   Pad connections          | None    |           |           |
-|   Thermal relief gap       | 0.50 mm |           |           |
-|   Thermal spoke width      | 0.50 mm |           |           |
+| Setting                       | Value   | OSH Park  | PCBWay    |
+|-------------------------------|--------:|----------:|----------:|
+| Copper                        |         |           |           |
+|   Minimum clearance           | 0.20 mm | 0.1524 mm | 0.1016 mm |
+|   Minimum clearance         † | 0.15 mm | 0.1524 mm | 0.1016 mm |
+|   Minimum track width         | 0.20 mm | 0.1524 mm | 0.1016 mm |
+|   Minimum connection width    | 0.20 mm |      -    |      -    |
+|   Minimum annular width       | 0.15 mm | 0.1270 mm | 0.1524 mm |
+|   Minimum via diameter        | 0.60 mm | 0.5080 mm | 0.5048 mm |
+|   Copper to hole clearance    | 0.25 mm |      -    |      -    |
+|   Copper to edge clearance    | 0.40 mm | 0.3810 mm | 0.2500 mm |
+|   Copper to edge clearance  † | 0.30 mm | 0.3810 mm | 0.2500 mm |
+| Holes                         |         |           |           |
+|   Minimum through hole        | 0.30 mm | 0.2540 mm |      -    |
+|   Hole to hole clearance      | 0.42 mm |      -    | 0.4064 mm |
+| uVias                         |         |           |           |
+|   Minimum uVia diameter       | 0.51 mm |      -    |      -    |
+|   Minimum uVia hole           | 0.30 mm |      -    |      -    |
+| Silkscreen                    |         |           |           |
+|   Minimum item clearance      | 0.00 mm |      -    |      -    |
+|   Minimum text height         | 0.80 mm |      -    | 0.8000 mm |
+|   Minimum text thickness      | 0.15    |      -    | 0.1500 mm |
+|                               |         |           |           |
+| Solder mask/paste             |         |           |           |
+|   Solder mask expansion       | 0.05 mm |           |           |
+|                               |         |           |           |
+| Copper zone                   |         |           |           |
+|   Clearance                   | 0.30 mm |           |           |
+|   Minimum width               | 0.30 mm |           |           |
+|   Pad connections             | None    |           |           |
+|   Thermal relief gap          | 0.50 mm |           |           |
+|   Thermal spoke width         | 0.50 mm |           |           |
+
+† Framework expansion card settings
 
 
 ## Predefined Sizes
