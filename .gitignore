@@ -1,3 +1,4 @@
 *.kicad_pro
 *.kicad_prl
+*.pdf
 fp-info-cache
