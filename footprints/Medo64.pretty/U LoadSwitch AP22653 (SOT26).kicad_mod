@@ -1,4 +1,4 @@
-(footprint "U CurrentLimiter AP22653 (SOT26)" (version 20221018) (generator pcbnew)
+(footprint "U LoadSwitch AP22653 (SOT26)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "SOT95P240X110-3N")
   (attr smd)

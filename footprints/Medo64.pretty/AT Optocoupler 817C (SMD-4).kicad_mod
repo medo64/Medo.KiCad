@@ -1,4 +1,4 @@
-(footprint "U Optocoupler 817C (SMD-4)" (version 20221018) (generator pcbnew)
+(footprint "AT Optocoupler 817C (SMD-4)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Toshiba TB67H450AFNG")
   (tags "SOIC127P600X170-9N")

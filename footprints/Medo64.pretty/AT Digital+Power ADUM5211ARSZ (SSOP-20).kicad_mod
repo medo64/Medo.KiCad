@@ -1,4 +1,4 @@
-(footprint "U Isolator+Power ADUM5211ARSZ (SSOP-20)" (version 20221018) (generator pcbnew)
+(footprint "AT Digital+Power ADUM5211ARSZ (SSOP-20)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Analog Devices ADUM5211ARSZ")
   (tags "SOP65P780X200-20N")

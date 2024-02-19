@@ -1,4 +1,4 @@
-(footprint "U Driver Stepper A4988 (16w)" (version 20221018) (generator pcbnew)
+(footprint "U StepperDriver A4988 (16w)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "JST B2B-XH-A")
   (attr through_hole)
