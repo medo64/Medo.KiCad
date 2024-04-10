@@ -1,6 +1,5 @@
 (footprint "F (0805)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "Bel Fuse 0ZCK0020FF2G")
   (attr smd)
   (fp_text reference "F?" (at 0 -1.6) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.6) (thickness 0.15) bold))

@@ -1,6 +1,6 @@
 (footprint "J JST PH B (2w)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "JST B2B-PH-K-S [455-1704-ND]")
+  (descr "JST B2B-PH-K-S")
   (attr through_hole)
   (fp_text reference "J?" (at 0 1.5) (layer "F.SilkS")
       (effects (font (size 0.8 0.6) (thickness 0.15) bold))

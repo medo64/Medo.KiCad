@@ -16,6 +16,8 @@
   )
   (fp_rect (start -1.55 -0.85) (end 1.55 0.85)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp 3b25f1a4-3a56-46c4-8b0b-810d331baf97))
+  (fp_circle (center -1.95 0) (end -1.8 0)
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 8df37032-7aa9-4324-85ae-33f84bb9ac00))
   (fp_poly
     (pts
       (xy -0.3 0)
