@@ -1,4 +1,4 @@
-(footprint "J JST XH Edge [UART] (7w)" (version 20221018) (generator pcbnew)
+(footprint "J JST XH Edge [RS232] (7w)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "JST B7B-XH-A")
   (attr through_hole)
