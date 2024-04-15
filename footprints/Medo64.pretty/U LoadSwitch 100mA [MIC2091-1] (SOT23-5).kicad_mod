@@ -1,4 +1,4 @@
-(footprint "U LoadSwitch 500mA AutoRetry [MIC2005A-1] (SOT23-5)" (version 20221018) (generator pcbnew)
+(footprint "U LoadSwitch 100mA [MIC2091-1] (SOT23-5)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (tags "SOT95P240X110-3N")
   (attr smd)
@@ -6,7 +6,7 @@
       (effects (font (size 0.8 0.6) (thickness 0.15)))
     (tstamp 708959d6-222d-4814-b30d-3b9b0063bd8f)
   )
-  (fp_text value "MIC2005A-1" (at 0 2.4 180) (layer "F.SilkS") hide
+  (fp_text value "MIC2091-1" (at 0 2.4 180) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.6) (thickness 0.15)))
     (tstamp 39395377-b265-447d-943b-efbd12121826)
   )
@@ -30,6 +30,8 @@
       (effects (font (size 0.13 0.07) (thickness 0.01) bold) (justify right))
     (tstamp f34a9674-632c-4b78-adee-9b712755cc85)
   )
+  (fp_rect (start 0.35 -1.45) (end -0.35 -0.95)
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 8c422573-478f-4079-b6cd-248373febde9))
   (fp_rect (start 0.35 -1.45) (end -0.35 1.45)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp 3b25f1a4-3a56-46c4-8b0b-810d331baf97))
   (fp_circle (center -1.25 -1.6) (end -1.1 -1.6)
