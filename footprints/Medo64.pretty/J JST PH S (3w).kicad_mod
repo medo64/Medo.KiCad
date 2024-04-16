@@ -12,6 +12,8 @@
   )
   (fp_line (start -3.75 5.8) (end -3.75 -1.3)
     (stroke (width 0.2) (type default)) (layer "F.SilkS") (tstamp 22e9d4b1-736c-40b1-8901-11f8b0c70c6b))
+  (fp_line (start -3.35 -0.4) (end -3.35 0.4)
+    (stroke (width 0.2) (type default)) (layer "F.SilkS") (tstamp 2d469699-948e-4a52-8efd-f8809f653b41))
   (fp_line (start 3.75 5.8) (end -3.75 5.8)
     (stroke (width 0.2) (type default)) (layer "F.SilkS") (tstamp b13a0736-05de-47a6-8723-427c0de07ff8))
   (fp_line (start 3.75 5.8) (end 3.75 -1.3)

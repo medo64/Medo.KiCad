@@ -29,24 +29,21 @@
       (effects (font (size 0.13 0.07) (thickness 0.01)))
     (tstamp e5c8f2f4-2899-44dc-ae25-6fb4a5db40b5)
   )
+  (fp_line (start -3.81 -0.2) (end -3.81 0.2)
+    (stroke (width 0.2) (type default)) (layer "F.SilkS") (tstamp ee9b8c20-67b5-4c75-b661-42d697dc673d))
   (fp_rect (start -6.35 -1.27) (end 6.35 1.27)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp 8d302d51-82d1-4f1f-86ef-9f6a649d1a8d))
   (fp_poly
     (pts
-      (xy -6.35 0)
+      (xy -6.223 -0.508)
+      (xy -5.461 -1.27)
       (xy -6.35 -1.27)
-      (xy -5.715 -1.27)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp c2c70bd1-86c9-4ec0-97de-02a404bfe13b))
-  (fp_poly
-    (pts
-      (xy -6.35 0)
       (xy -6.35 1.27)
-      (xy -5.715 1.27)
+      (xy -5.461 1.27)
+      (xy -6.223 0.508)
     )
 
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp dcdb9c72-18c2-4f10-b511-2031d222af40))
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 5ac4f972-5a2d-4766-9000-905e012afd05))
   (pad "1" thru_hole roundrect (at -5.08 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25)
     (chamfer_ratio 0.2) (chamfer top_left bottom_left) (tstamp e6fcd41a-08f8-445a-9189-cceee1c02a08))
   (pad "2" thru_hole circle (at -2.54 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp cc19d526-fdd7-4506-996e-a5274f6bf396))
