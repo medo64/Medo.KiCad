@@ -18,7 +18,7 @@
     (stroke (width 0.01) (type dash_dot)) (fill none) (layer "F.Fab") (tstamp fd6909a9-6395-435b-9abc-313dd69c6e04))
   (pad "1" thru_hole roundrect (at 0 0) (size 1.6 1.6) (drill 1) (property pad_prop_testpoint) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25)
     (chamfer_ratio 0.2) (chamfer top_left top_right bottom_left bottom_right) (tstamp 562e374a-375f-4fd1-aba5-1ef44e5022a7))
-  (model ":KICAD7_3DMODEL_DIR:TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step"
+  (model "${KICAD7_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

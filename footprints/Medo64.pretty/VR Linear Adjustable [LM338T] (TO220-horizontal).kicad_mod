@@ -77,7 +77,7 @@
         )
         (width 0) (fill yes))
     ) (tstamp 59605329-ae8b-4462-ab6f-d99784641f8a))
-  (model ":KICAD7_3DMODEL_DIR:Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.step"
+  (model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.step"
     (offset (xyz -2.54 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

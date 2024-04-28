@@ -31,7 +31,7 @@
   (pad "1" smd roundrect (at -1.25 0) (size 1.2 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (chamfer_ratio 0.2) (chamfer top_left bottom_left) (tstamp 562e374a-375f-4fd1-aba5-1ef44e5022a7))
   (pad "2" smd roundrect (at 1.25 0) (size 1.2 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 06e9f537-3413-4f8f-a401-54462f3d7e9e))
-  (model ":KICAD7_3DMODEL_DIR:Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
+  (model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
     (offset (xyz -1.25 -2 0.25))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

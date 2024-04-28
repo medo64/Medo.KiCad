@@ -22,7 +22,7 @@
     (thermal_bridge_angle 45) (tstamp 70e7b4fc-1901-496a-9a2b-4547f086dcfe))
   (pad "2" smd roundrect (at 0.9 0) (size 1.15 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 8eb5084c-ac0f-4f0e-89b7-7a4e0c485346))
-  (model ":KICAD7_3DMODEL_DIR:Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+  (model "${KICAD7_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
