@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "JST B3B-XH-A")
+	(descr "AMP CT 292133-3")
 	(property "Reference" "J?"
 		(at 0 -1.4 0)
 		(layer "F.SilkS")
