@@ -1,4 +1,4 @@
-(footprint "J Phoenix MC (4w)"
+(footprint "J Phoenix MC [CAN] (4w)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" "J Phoenix MC (4w)"
+	(property "Footprint" "J Phoenix MC [CAN] (4w)"
 		(at 0 9 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -176,6 +176,54 @@
 		(fill none)
 		(layer "F.Fab")
 		(uuid "c43d4130-e323-4bf4-9f1f-b2be76aea4d7")
+	)
+	(fp_text user "L"
+		(at -1.905 1.4 0)
+		(layer "Cmts.User" knockout)
+		(uuid "624c6fb6-986b-4846-a2ba-20670bca99b0")
+		(effects
+			(font
+				(size 0.13 0.07)
+				(thickness 0.01)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "V+"
+		(at 5.715 1.4 0)
+		(layer "Cmts.User" knockout)
+		(uuid "68bad14b-1516-4bd6-ac0c-9d8e43aca946")
+		(effects
+			(font
+				(size 0.13 0.07)
+				(thickness 0.01)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "H"
+		(at 1.905 1.4 0)
+		(layer "Cmts.User" knockout)
+		(uuid "6e9fb5d3-d115-4e84-a8cc-004c577409b7")
+		(effects
+			(font
+				(size 0.13 0.07)
+				(thickness 0.01)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at -5.715 1.4 0)
+		(layer "Cmts.User" knockout)
+		(uuid "e5d1f021-781d-4ad1-b236-b6f63b5decf9")
+		(effects
+			(font
+				(size 0.13 0.07)
+				(thickness 0.01)
+				(bold yes)
+			)
+		)
 	)
 	(pad "1" thru_hole roundrect
 		(at -5.715 0)
