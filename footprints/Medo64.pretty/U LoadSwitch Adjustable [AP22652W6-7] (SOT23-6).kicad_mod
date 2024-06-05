@@ -1,9 +1,8 @@
-(footprint "U LoadSwitch Adjustable [AP22652AW6-7] (SOT23-6)"
+(footprint "U LoadSwitch Adjustable [AP22652W6-7] (SOT23-6)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Latch off")
 	(tags "SOT95P240X110-3N")
 	(property "Reference" "U?"
 		(at 0 -2.2 0)
@@ -16,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "AP22652A"
+	(property "Value" "AP22652"
 		(at 0 2.4 180)
 		(layer "F.SilkS")
 		(hide yes)
@@ -28,12 +27,12 @@
 			)
 		)
 	)
-	(property "Footprint" "U LoadSwitch Adjustable [AP22652AW6-7] (SOT23-6)"
+	(property "Footprint" "U LoadSwitch Adjustable [AP22652W6-7] (SOT23-6)"
 		(at 0 4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eeffb6bf-6254-4e5f-81c6-eeea036463ac")
+		(uuid "4c06d5ee-f033-4678-acca-34492630e6e7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fa4c18e3-37c3-4219-8722-340aff234441")
+		(uuid "af4bfecc-7eaf-4015-8578-89bb124d4870")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e3573509-f326-46a4-843b-2cbd9e4d9dac")
+		(uuid "22859350-53cb-4d2e-8e36-c40f6c857335")
 		(effects
 			(font
 				(size 1.27 1.27)

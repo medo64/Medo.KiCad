@@ -1,9 +1,8 @@
-(footprint "U LoadSwitch Adjustable [AP22652AW6-7] (SOT23-6)"
+(footprint "U LoadSwitch Adjustable [AP22653W6-7] (SOT23-6)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Latch off")
 	(tags "SOT95P240X110-3N")
 	(property "Reference" "U?"
 		(at 0 -2.2 0)
@@ -16,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "AP22652A"
+	(property "Value" "AP22653"
 		(at 0 2.4 180)
 		(layer "F.SilkS")
 		(hide yes)
@@ -28,12 +27,12 @@
 			)
 		)
 	)
-	(property "Footprint" "U LoadSwitch Adjustable [AP22652AW6-7] (SOT23-6)"
+	(property "Footprint" "U LoadSwitch Adjustable [AP22653W6-7] (SOT23-6)"
 		(at 0 4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eeffb6bf-6254-4e5f-81c6-eeea036463ac")
+		(uuid "b2729f7f-11c6-4ed1-8b0b-b0d9de30b734")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fa4c18e3-37c3-4219-8722-340aff234441")
+		(uuid "2fe96cd9-19f2-4b97-bb24-579c035a6c13")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e3573509-f326-46a4-843b-2cbd9e4d9dac")
+		(uuid "79aa6bdf-9e80-4be5-9229-ab3a81668a3b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74,7 +73,7 @@
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "6fc59a3d-2f62-42e5-9f67-92e750a3aa52")
+		(uuid "9a2e4e32-382b-47b4-8082-5d1dc3b42352")
 	)
 	(fp_rect
 		(start 0.35 -1.4)
@@ -146,7 +145,7 @@
 			(justify right)
 		)
 	)
-	(fp_text user "~{EN}"
+	(fp_text user "EN"
 		(at -0.7 0.95 0)
 		(layer "Cmts.User" knockout)
 		(uuid "5dde9717-2de7-4e48-9220-7830b5dbce0b")
