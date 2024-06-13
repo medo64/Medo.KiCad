@@ -362,15 +362,4 @@
 		(remove_unused_layers no)
 		(uuid "eef5731b-ffc6-4437-8623-11b1a71e5376")
 	)
-	(model "../../3dmodels/Medo64-SMD.3dshapes/480372200.step"
-		(offset
-			(xyz 0 -8.375 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 0)
-		)
-	)
 )
