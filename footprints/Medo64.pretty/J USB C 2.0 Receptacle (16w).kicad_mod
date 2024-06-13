@@ -502,7 +502,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "917fefa8-8eea-4a2d-9acc-8e32ad6fb655")
 	)
-	(model "../../3dmodels/Medo64-SMD.3dshapes/USB4085-GF-A.step"
+	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.wrl"
 		(offset
 			(xyz 12 -4 1.6)
 		)

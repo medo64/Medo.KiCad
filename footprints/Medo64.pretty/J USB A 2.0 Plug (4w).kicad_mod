@@ -35,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -47,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +61,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -316,15 +319,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "eef5731b-ffc6-4437-8623-11b1a71e5376")
 	)
-	(model "../../3dmodels/Medo64-SMD.3dshapes/480372200.step"
+	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_CNCTech_1001-011-01101_Horizontal.wrl"
 		(offset
-			(xyz 0 -8.375 0)
+			(xyz 0 -7 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 0 0 90)
 		)
 	)
 )

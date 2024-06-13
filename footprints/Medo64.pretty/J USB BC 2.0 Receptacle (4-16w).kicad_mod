@@ -520,7 +520,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at -2.975 0.5 0)
+		(at 1.19 -3.3 0)
 		(layer "Cmts.User" knockout)
 		(uuid "d11eb5ee-356c-404e-b934-2794fc4065c4")
 		(effects
@@ -532,7 +532,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 1.19 -3.3 0)
+		(at -2.975 0.5 0)
 		(layer "Cmts.User" knockout)
 		(uuid "d11eb5ee-356c-404e-b934-2794fc4065c4")
 		(effects
@@ -788,18 +788,6 @@
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(uuid "eef5731b-ffc6-4437-8623-11b1a71e5376")
-	)
-	(model "../../3dmodels/Medo64-SMD.3dshapes/USB4085-GF-A.step"
-		(hide yes)
-		(offset
-			(xyz 12 -4 1.6)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 0)
-		)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.wrl"
 		(offset
