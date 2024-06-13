@@ -111,7 +111,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(uuid "562e374a-375f-4fd1-aba5-1ef44e5022a7")
 	)
-	(model "${KICAD7_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.step"
+	(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

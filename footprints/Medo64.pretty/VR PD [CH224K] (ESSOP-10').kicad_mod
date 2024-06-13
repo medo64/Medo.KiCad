@@ -97,7 +97,7 @@
   (pad "11" thru_hole roundrect (at 0.675 0.9) (size 1.35 1.8) (drill 0.3) (layers "*.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5)
     (chamfer_ratio 0) (chamfer top_left top_right bottom_left)
     (thermal_bridge_angle 45) (tstamp 052d067c-5a3c-480d-8fdc-d420d9ef13bd))
-  (model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-10_3.9x4.9mm_P1.00mm.step"
+  (model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-10_3.9x4.9mm_P1.00mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

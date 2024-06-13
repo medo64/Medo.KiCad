@@ -38,7 +38,7 @@
     (chamfer_ratio 0.2) (chamfer top_left bottom_left) (tstamp 562e374a-375f-4fd1-aba5-1ef44e5022a7))
   (pad "2" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "B.Mask") (tstamp c3c797e1-9d30-4bc2-8f9b-8ca70872919f))
   (pad "3" thru_hole circle (at 2.5 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "B.Mask") (tstamp 06e9f537-3413-4f8f-a401-54462f3d7e9e))
-  (model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical.step"
+  (model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical.wrl"
     (offset (xyz -2.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

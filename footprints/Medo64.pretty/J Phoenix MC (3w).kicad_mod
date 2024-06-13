@@ -194,7 +194,7 @@
 		(remove_unused_layers no)
 		(uuid "0cba9798-df61-4031-8bd0-d7b3f387c248")
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Connector_Phoenix_MC.3dshapes/PhoenixContact_MC_1,5_3-G-3.81_1x03_P3.81mm_Horizontal.step"
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Phoenix_MC.3dshapes/PhoenixContact_MC_1,5_3-G-3.81_1x03_P3.81mm_Horizontal.wrl"
 		(offset
 			(xyz -3.81 0 0)
 		)

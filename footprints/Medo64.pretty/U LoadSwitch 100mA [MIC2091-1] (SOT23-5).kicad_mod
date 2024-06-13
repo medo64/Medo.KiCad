@@ -52,7 +52,7 @@
     (thermal_bridge_angle 45) (tstamp 095c6f70-02b2-424d-8c83-b7a208ddc091))
   (pad "5" smd roundrect (at 1.25 -0.95) (size 0.9 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp ad55e4a1-406e-4985-903f-d45d0a9c358e))
-  (model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+  (model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

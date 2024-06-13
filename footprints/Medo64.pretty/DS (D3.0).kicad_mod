@@ -32,7 +32,7 @@
   (pad "1" thru_hole roundrect (at -1.27 0) (size 1.4 1.4) (drill 0.9) (layers "*.Cu" "B.Mask") (roundrect_rratio 0.25)
     (chamfer_ratio 0.2) (chamfer top_left bottom_left) (tstamp b4897032-ef6e-4f2b-befe-d39168f71ee7))
   (pad "2" thru_hole circle (at 1.27 0) (size 1.4 1.4) (drill 0.9) (layers "*.Cu" "B.Mask") (tstamp b4b8f7c7-9b00-4e11-a2dd-a5c8120a9aa7))
-  (model "${KICAD7_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
+  (model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
     (offset (xyz 1.27 0 -3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
