@@ -188,8 +188,8 @@
 		(uuid "dd4cbe48-b0e1-4c92-8bf6-69865c987467")
 	)
 	(fp_line
-		(start -6.2 14.2)
-		(end 6.2 14.2)
+		(start -6.25 14.2)
+		(end 6.25 14.2)
 		(stroke
 			(width 0.01)
 			(type dash)
