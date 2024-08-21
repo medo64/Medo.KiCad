@@ -1,9 +1,9 @@
-(footprint "U Temperature Analog [MCP9700T] (SOT23-3)"
+(footprint "U Temperature Analog [MCP9700] (SOT23-3)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Microchip MCP9700T")
+	(descr "Microchip MCP9700B")
 	(tags "SOT95P240X110-3N")
 	(property "Reference" "U?"
 		(at 0 -2.4 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MCP9700T"
+	(property "Value" "MCP9700"
 		(at 0 2.5 0)
 		(layer "F.SilkS")
 		(hide yes)
