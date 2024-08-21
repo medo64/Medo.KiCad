@@ -6,7 +6,7 @@
 	(descr "Microchip PIC12F1501")
 	(tags "SOIC127P600X175-8AN")
 	(property "Reference" "U?"
-		(at -0.1 0 90)
+		(at -0.5 0 90)
 		(layer "F.SilkS")
 		(uuid "708959d6-222d-4814-b30d-3b9b0063bd8f")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "12F1501"
-		(at 1.1 0 90)
+		(at 1 0 90)
 		(layer "F.SilkS")
 		(uuid "39395377-b265-447d-943b-efbd12121826")
 		(effects
@@ -118,8 +118,8 @@
 		(layer "F.Fab")
 		(uuid "b2f66669-a39f-42fa-ad88-4ac34afbf429")
 	)
-	(fp_text user "RA1/AN1/Vref/C1IN0-"
-		(at 1.55 0.535 0)
+	(fp_text user "RA1 AN1 Vref C1IN0-"
+		(at 1.55 0.55 0)
 		(layer "Cmts.User" knockout)
 		(uuid "120f5fcc-5e4f-45ab-b8c2-78882d66402d")
 		(effects
@@ -130,8 +130,8 @@
 			(justify right)
 		)
 	)
-	(fp_text user "RA2/AN2/DACOUT2/C1OUT"
-		(at 1.55 1.805 0)
+	(fp_text user "RA2 AN2 DACOUT2 C1OUT"
+		(at 1.55 1.82 0)
 		(layer "Cmts.User" knockout)
 		(uuid "13133a61-06a9-4d1f-a6f5-80192219821b")
 		(effects
@@ -143,8 +143,8 @@
 			(justify right)
 		)
 	)
-	(fp_text user "RA0/AN0/DACOUT1/C1IN+"
-		(at 1.55 -0.735 0)
+	(fp_text user "RA0 AN0 DACOUT1 C1IN+"
+		(at 1.55 -0.72 0)
 		(layer "Cmts.User" knockout)
 		(uuid "1cb73f68-dcbf-4d75-b422-7497b1c004e9")
 		(effects
@@ -155,8 +155,8 @@
 			(justify right)
 		)
 	)
-	(fp_text user "CWG1B/CLC1/PWM3"
-		(at -1.55 0.735 0)
+	(fp_text user "CWG1B CLC1 PWM3"
+		(at -1.55 0.71 0)
 		(layer "Cmts.User" knockout)
 		(uuid "241cfd4e-040f-4af8-bf9d-7f1a453e6909")
 		(effects
@@ -180,8 +180,8 @@
 			(justify right)
 		)
 	)
-	(fp_text user "T0CKI/CWG1A/CLC1/PWM1"
-		(at 1.55 2.005 0)
+	(fp_text user "T0CKI CWG1A CLC1 PWM1"
+		(at 1.55 1.98 0)
 		(layer "Cmts.User" knockout)
 		(uuid "405cefab-53aa-44ac-b156-be8e190c7388")
 		(effects
@@ -193,8 +193,8 @@
 			(justify right)
 		)
 	)
-	(fp_text user "CLC2IN1/PWM2/ICSPDAT"
-		(at 1.55 -0.535 0)
+	(fp_text user "CLC2IN1 PWM2 ICSPDAT"
+		(at 1.55 -0.56 0)
 		(layer "Cmts.User" knockout)
 		(uuid "453a687b-d030-4bd2-8906-e05325865996")
 		(effects
@@ -205,8 +205,8 @@
 			(justify right)
 		)
 	)
-	(fp_text user "NCO1/CLC1IN1/PWM4"
-		(at -1.55 -0.535 0)
+	(fp_text user "NCO1 CLC1IN1 PWM4"
+		(at -1.55 -0.55 0)
 		(layer "Cmts.User" knockout)
 		(uuid "4d01352c-23d1-43eb-a606-d9ef6caa99ba")
 		(effects
@@ -217,8 +217,8 @@
 			(justify left)
 		)
 	)
-	(fp_text user "RA5/T1CKI/CWG1A"
-		(at -1.55 -0.735 0)
+	(fp_text user "RA5 T1CKI CWG1A"
+		(at -1.55 -0.72 0)
 		(layer "Cmts.User" knockout)
 		(uuid "950ba1e6-941a-48f9-bcda-60672f45ce44")
 		(effects
@@ -229,8 +229,8 @@
 			(justify left)
 		)
 	)
-	(fp_text user "RA4/AN3/C1IN1-/T1G"
-		(at -1.55 0.535 0)
+	(fp_text user "RA4 AN3 C1IN1- T1G"
+		(at -1.55 0.55 0)
 		(layer "Cmts.User" knockout)
 		(uuid "af1cee45-117a-4a6e-8ccb-d42ca07d10ef")
 		(effects
@@ -253,8 +253,8 @@
 			(justify left)
 		)
 	)
-	(fp_text user "NCO1/CLC2IN0/ICSPCLK"
-		(at 1.55 0.735 0)
+	(fp_text user "NCO1 CLC2IN0 ICSPCLK"
+		(at 1.55 0.71 0)
 		(layer "Cmts.User" knockout)
 		(uuid "d53017c3-f477-471f-baa8-2a8932ab1d9a")
 		(effects
@@ -265,7 +265,7 @@
 			(justify right)
 		)
 	)
-	(fp_text user "RA3/T1G/CLC1IN0"
+	(fp_text user "RA3 T1G CLC1IN0"
 		(at -1.55 1.805 0)
 		(layer "Cmts.User" knockout)
 		(uuid "f4f98b16-3c59-43f4-b64f-bc6868c6806a")
@@ -277,7 +277,7 @@
 			(justify left)
 		)
 	)
-	(fp_text user "VPP/~{MCLR}"
+	(fp_text user "VPP ~{MCLR}"
 		(at -1.55 2.005 0)
 		(layer "Cmts.User" knockout)
 		(uuid "f93cd6ea-0e32-4cbe-a640-189f3b6f3ecc")
