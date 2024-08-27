@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -239,7 +242,7 @@
 		(at -2.44 0)
 		(size 1.4 1.4)
 		(drill 0.8)
-		(layers "*.Cu" "B.Mask")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "cb141ec1-fc91-4621-8096-4316e41ec42b")
 	)
@@ -247,7 +250,7 @@
 		(at 2.44 0)
 		(size 1.4 1.4)
 		(drill 0.8)
-		(layers "*.Cu" "B.Mask")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "a1201022-4319-46cc-ba4f-a1d6cc5f46b3")
 	)
