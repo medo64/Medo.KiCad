@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "12F1501"
-		(at 1 0 90)
+		(at 0.6 0.1 90)
 		(layer "F.SilkS")
 		(uuid "39395377-b265-447d-943b-efbd12121826")
 		(effects
@@ -119,7 +119,7 @@
 		(uuid "b2f66669-a39f-42fa-ad88-4ac34afbf429")
 	)
 	(fp_text user "RA1 AN1 Vref C1IN0-"
-		(at 1.55 0.55 0)
+		(at 0.97 0.55 0)
 		(layer "Cmts.User" knockout)
 		(uuid "120f5fcc-5e4f-45ab-b8c2-78882d66402d")
 		(effects
@@ -127,11 +127,10 @@
 				(size 0.13 0.07)
 				(thickness 0.01)
 			)
-			(justify right)
 		)
 	)
 	(fp_text user "RA2 AN2 DACOUT2 C1OUT"
-		(at 1.55 1.82 0)
+		(at 0.86 1.82 0)
 		(layer "Cmts.User" knockout)
 		(uuid "13133a61-06a9-4d1f-a6f5-80192219821b")
 		(effects
@@ -140,11 +139,10 @@
 				(thickness 0.01)
 				(bold yes)
 			)
-			(justify right)
 		)
 	)
 	(fp_text user "RA0 AN0 DACOUT1 C1IN+"
-		(at 1.55 -0.72 0)
+		(at 0.88 -0.72 0)
 		(layer "Cmts.User" knockout)
 		(uuid "1cb73f68-dcbf-4d75-b422-7497b1c004e9")
 		(effects
@@ -152,11 +150,10 @@
 				(size 0.13 0.07)
 				(thickness 0.01)
 			)
-			(justify right)
 		)
 	)
 	(fp_text user "CWG1B CLC1 PWM3"
-		(at -1.55 0.71 0)
+		(at -1.04 0.71 0)
 		(layer "Cmts.User" knockout)
 		(uuid "241cfd4e-040f-4af8-bf9d-7f1a453e6909")
 		(effects
@@ -164,11 +161,10 @@
 				(size 0.13 0.07)
 				(thickness 0.01)
 			)
-			(justify left)
 		)
 	)
 	(fp_text user "VSS"
-		(at 1.55 -1.905 0)
+		(at 1.45 -1.905 0)
 		(layer "Cmts.User" knockout)
 		(uuid "251276a5-6d5f-4142-83ca-4cbac65e90f4")
 		(effects
@@ -177,11 +173,10 @@
 				(thickness 0.01)
 				(bold yes)
 			)
-			(justify right)
 		)
 	)
 	(fp_text user "T0CKI CWG1A CLC1 PWM1"
-		(at 1.55 1.98 0)
+		(at 0.87 1.98 0)
 		(layer "Cmts.User" knockout)
 		(uuid "405cefab-53aa-44ac-b156-be8e190c7388")
 		(effects
@@ -190,11 +185,10 @@
 				(thickness 0.01)
 				(bold yes)
 			)
-			(justify right)
 		)
 	)
 	(fp_text user "CLC2IN1 PWM2 ICSPDAT"
-		(at 1.55 -0.56 0)
+		(at 0.91 -0.56 0)
 		(layer "Cmts.User" knockout)
 		(uuid "453a687b-d030-4bd2-8906-e05325865996")
 		(effects
@@ -202,11 +196,10 @@
 				(size 0.13 0.07)
 				(thickness 0.01)
 			)
-			(justify right)
 		)
 	)
 	(fp_text user "NCO1 CLC1IN1 PWM4"
-		(at -1.55 -0.55 0)
+		(at -0.99 -0.55 0)
 		(layer "Cmts.User" knockout)
 		(uuid "4d01352c-23d1-43eb-a606-d9ef6caa99ba")
 		(effects
@@ -214,11 +207,10 @@
 				(size 0.13 0.07)
 				(thickness 0.01)
 			)
-			(justify left)
 		)
 	)
 	(fp_text user "RA5 T1CKI CWG1A"
-		(at -1.55 -0.72 0)
+		(at -1.08 -0.72 0)
 		(layer "Cmts.User" knockout)
 		(uuid "950ba1e6-941a-48f9-bcda-60672f45ce44")
 		(effects
@@ -226,11 +218,10 @@
 				(size 0.13 0.07)
 				(thickness 0.01)
 			)
-			(justify left)
 		)
 	)
 	(fp_text user "RA4 AN3 C1IN1- T1G"
-		(at -1.55 0.55 0)
+		(at -0.98 0.55 0)
 		(layer "Cmts.User" knockout)
 		(uuid "af1cee45-117a-4a6e-8ccb-d42ca07d10ef")
 		(effects
@@ -238,11 +229,10 @@
 				(size 0.13 0.07)
 				(thickness 0.01)
 			)
-			(justify left)
 		)
 	)
 	(fp_text user "VDD"
-		(at -1.55 -1.905 0)
+		(at -1.44 -1.905 0)
 		(layer "Cmts.User" knockout)
 		(uuid "bdcbc16b-9841-4dc1-97d6-1d0fe8538f39")
 		(effects
@@ -250,11 +240,10 @@
 				(size 0.13 0.07)
 				(thickness 0.01)
 			)
-			(justify left)
 		)
 	)
 	(fp_text user "NCO1 CLC2IN0 ICSPCLK"
-		(at 1.55 0.71 0)
+		(at 0.91 0.71 0)
 		(layer "Cmts.User" knockout)
 		(uuid "d53017c3-f477-471f-baa8-2a8932ab1d9a")
 		(effects
@@ -262,11 +251,10 @@
 				(size 0.13 0.07)
 				(thickness 0.01)
 			)
-			(justify right)
 		)
 	)
 	(fp_text user "RA3 T1G CLC1IN0"
-		(at -1.55 1.805 0)
+		(at -1.09 1.805 0)
 		(layer "Cmts.User" knockout)
 		(uuid "f4f98b16-3c59-43f4-b64f-bc6868c6806a")
 		(effects
@@ -274,11 +262,10 @@
 				(size 0.13 0.07)
 				(thickness 0.01)
 			)
-			(justify left)
 		)
 	)
 	(fp_text user "VPP ~{MCLR}"
-		(at -1.55 2.005 0)
+		(at -1.28 2.005 0)
 		(layer "Cmts.User" knockout)
 		(uuid "f93cd6ea-0e32-4cbe-a640-189f3b6f3ecc")
 		(effects
@@ -286,7 +273,6 @@
 				(size 0.13 0.07)
 				(thickness 0.01)
 			)
-			(justify left)
 		)
 	)
 	(pad "1" smd roundrect
