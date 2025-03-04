@@ -116,12 +116,7 @@
 		(at -1.6 0)
 		(size 1.4 1.4)
 		(drill 0.5)
-		(layers "*.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
-			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
-			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
-			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
-			"In30.Cu" "F.Mask"
-		)
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
@@ -133,16 +128,11 @@
 		(at 0 0)
 		(size 1.4 1.4)
 		(drill 0.5)
-		(layers "*.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
-			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
-			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
-			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
-			"In30.Cu" "F.Mask"
-		)
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.2)
-		(chamfer top_left)
+		(chamfer)
 		(thermal_bridge_angle 45)
 		(uuid "8eb5084c-ac0f-4f0e-89b7-7a4e0c485346")
 	)
@@ -150,12 +140,7 @@
 		(at 1.6 0)
 		(size 1.4 1.4)
 		(drill 0.5)
-		(layers "*.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
-			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
-			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
-			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
-			"In30.Cu" "F.Mask"
-		)
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
