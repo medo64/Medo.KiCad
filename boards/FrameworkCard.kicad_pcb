@@ -343,7 +343,7 @@
       (thermal_bridge_angle 45) (tstamp 3cf55ded-e343-4520-9741-ebf1acfc9963))
     (pad "S" smd roundrect locked (at 3.42 0.88) (size 0.7 1.15) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (thermal_bridge_angle 45) (tstamp 02adb8d5-0186-4d30-b8bb-ce678d301cf8))
-    (model "../../3dmodels/Medo64-SMD.3dshapes/1054440001.step"
+    (model "../../3dmodels/Medo64.3dshapes/1054440001.step"
       (offset (xyz 0 3.35 -0.41))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))

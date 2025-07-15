@@ -280,7 +280,7 @@
 		(remove_unused_layers no)
 		(uuid "06e9f537-3413-4f8f-a401-54462f3d7e9e")
 	)
-	(model "../../3dmodels/Medo64-SMD.3dshapes/c-292133-3-a-3d.step"
+	(model "../../3dmodels/Medo64.3dshapes/c-292133-3-a-3d.step"
 		(offset
 			(xyz -0.3 0 7)
 		)

@@ -293,7 +293,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "../../3dmodels/Medo64-SMD.3dshapes/OLED_0.91_128x32.step"
+	(model "../../3dmodels/Medo64.3dshapes/OLED_0.91_128x32.step"
 		(offset
 			(xyz 0 -17.75 9.65)
 		)

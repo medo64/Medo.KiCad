@@ -1010,7 +1010,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "4411b818-9f34-4959-b58e-495b98d31255")
 	)
-	(model "../../3dmodels/Medo64-SMD.3dshapes/1054440001.step"
+	(model "../../3dmodels/Medo64.3dshapes/1054440001.step"
 		(offset
 			(xyz 0 3.35 -0.41)
 		)

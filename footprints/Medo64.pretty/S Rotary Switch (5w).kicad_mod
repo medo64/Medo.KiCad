@@ -42,7 +42,7 @@
     (thermal_bridge_angle 45) (tstamp fe16d47c-d99d-49a4-89ac-33db65fe8b19))
   (pad "MH" thru_hole oval (at 6.15 0) (size 2.1 2.7) (drill oval 1.5 2.1) (layers "*.Cu" "*.Mask" "F.Paste")
     (thermal_bridge_angle 45) (tstamp bc36ef32-cac5-47d5-aea9-f8a16e1e6d14))
-  (model "../../3dmodels/Medo64-SMD.3dshapes/PEC12R-4230F-N0024.step"
+  (model "../../3dmodels/Medo64.3dshapes/PEC12R-4230F-N0024.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))
