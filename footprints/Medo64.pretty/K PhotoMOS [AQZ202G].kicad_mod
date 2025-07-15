@@ -1,0 +1,188 @@
+(footprint "K PhotoMOS [AQZ202G]"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Panasonic AQZ202G")
+	(property "Reference" "K?"
+		(at 0 -0.6 0)
+		(layer "F.SilkS")
+		(uuid "bec79cc3-c18e-4f33-8f63-02de5a4d133f")
+		(effects
+			(font
+				(size 0.8 0.6)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "AQZ202G"
+		(at 0 0.7 0)
+		(layer "F.Fab")
+		(uuid "06597a92-7147-4eb6-a011-4f3100c59555")
+		(effects
+			(font
+				(size 0.8 0.6)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87f3fcf7-cd06-4879-91bb-1d51aea1f8d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8681bcf2-0df4-491d-b18c-887bac99f92b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.9 -0.9)
+		(end -8.55 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a31b55a-d71b-48ad-9c29-5f8d233ffabf")
+	)
+	(fp_line
+		(start -6.75 -0.9)
+		(end -6.4 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6aa0a376-9bd9-46d8-8f0e-d085213e5ce9")
+	)
+	(fp_rect
+		(start -10.2 -1.45)
+		(end 10.2 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dfc6b3e6-d0ba-4062-b46f-fd473d0f47a3")
+	)
+	(fp_arc
+		(start -8.55 -0.9)
+		(mid -8.25 -1.2)
+		(end -7.95 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a35c0acb-d1ee-4d6e-b6c3-e94137ca4a7b")
+	)
+	(fp_arc
+		(start -7.95 -0.9)
+		(mid -7.65 -1.2)
+		(end -7.35 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91620cb8-48ee-43d5-b7c6-7b37cbc8f2df")
+	)
+	(fp_arc
+		(start -7.35 -0.9)
+		(mid -7.05 -1.2)
+		(end -6.75 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fd8260e-217f-4b73-b51b-a8f333674585")
+	)
+	(fp_rect
+		(start -11.1 -2.4)
+		(end 11.1 2.4)
+		(stroke
+			(width 0.01)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "614848d0-5a15-44f8-9994-e39f1756f014")
+	)
+	(fp_rect
+		(start -10.6 -1.85)
+		(end 10.6 1.85)
+		(stroke
+			(width 0.01)
+			(type dash_dot)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9247f909-e41e-4c54-8985-a0b7ba3b8ae7")
+	)
+	(pad "1" thru_hole circle
+		(at -8.89 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c68d507-d203-4d00-899d-8028db847367")
+	)
+	(pad "2" thru_hole circle
+		(at -6.35 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c3c797e1-9d30-4bc2-8f9b-8ca70872919f")
+	)
+	(pad "3" thru_hole circle
+		(at 3.81 0)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ef24574-82ae-4339-b2e5-55e5639fe208")
+	)
+	(pad "4" thru_hole circle
+		(at 8.89 0)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa96a18c-ecd2-4315-9490-6002f77ed2a2")
+	)
+	(embedded_fonts no)
+	(model "K Reed [HE24-1A83-03].step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)
