@@ -1,4 +1,4 @@
-(footprint "K PhotoMOS [AQZ202G]"
+(footprint "K PhotoMOS [AQZ202G] (SIP-4)"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -7,7 +7,7 @@
 	(property "Reference" "K?"
 		(at 0 0.3 0)
 		(layer "F.SilkS")
-		(uuid "bec79cc3-c18e-4f33-8f63-02de5a4d133f")
+		(uuid "90df6459-2b2c-4980-bff8-ec878d9daba3")
 		(effects
 			(font
 				(size 0.8 0.6)
@@ -19,7 +19,7 @@
 	(property "Value" "AQZ202G"
 		(at 0 1.7 0)
 		(layer "F.Fab")
-		(uuid "06597a92-7147-4eb6-a011-4f3100c59555")
+		(uuid "c2738d20-4aad-44ee-8720-9e5bd2e58ada")
 		(effects
 			(font
 				(size 0.8 0.6)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "87f3fcf7-cd06-4879-91bb-1d51aea1f8d5")
+		(uuid "ac63848d-06c5-41ef-b233-1204facd61c6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8681bcf2-0df4-491d-b18c-887bac99f92b")
+		(uuid "4a2e3091-14c4-43e6-972b-fb8bb0e5ec39")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -104,6 +104,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "9a31b55a-d71b-48ad-9c29-5f8d233ffabf")
+	)
+	(fp_line
+		(start -8.69 2.2)
+		(end -9.09 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98de11f3-0812-4354-b17b-0df1ef3518a8")
 	)
 	(fp_line
 		(start -8.1 1.2)
@@ -224,6 +234,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "a56f014f-61eb-4f83-bcec-5fe794ea1314")
+	)
+	(fp_line
+		(start -6.35 2.4)
+		(end -6.35 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49c4ce39-2f84-4be2-bb4a-966afee64db6")
+	)
+	(fp_line
+		(start -6.15 2.2)
+		(end -6.55 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe367cff-f4ce-477c-aeef-e0382600a91b")
 	)
 	(fp_line
 		(start -5.35 -0.6)
