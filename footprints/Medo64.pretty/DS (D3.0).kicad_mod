@@ -1,7 +1,7 @@
 (footprint "DS (D3.0)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "DS?"
 		(at 0 -2.45 0)
@@ -24,18 +24,6 @@
 				(size 1 0.8)
 				(thickness 0.15)
 				(bold yes)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "97849a79-15ab-4a27-a3b5-9f4536e0f628")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -63,7 +51,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_line
 		(start -0.9 -0.9)
 		(end -0.9 0.9)
@@ -93,7 +81,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "41111409-f908-4bf1-bad5-42a64193c85e")
 	)
@@ -104,7 +92,7 @@
 			(width 0.01)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "47e4e919-61ef-4b44-85cb-d8acb34ed582")
 	)
@@ -115,7 +103,7 @@
 			(width 0.01)
 			(type dash_dot)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4ebca25a-cadb-4236-9f07-7a3da45abe0a")
 	)
@@ -150,6 +138,7 @@
 		(remove_unused_layers no)
 		(uuid "b4b8f7c7-9b00-4e11-a2dd-a5c8120a9aa7")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
 		(offset
 			(xyz 1.27 0 -3)
