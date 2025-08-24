@@ -1,7 +1,7 @@
 (footprint "U Expander I2C [PI4IOE5V6416LEX] (TSSOP-24)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diodes PI4IOE5V6416")
 	(tags "SOP65P640X110-24N")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 0.8 0.6)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -1.625 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7becf17a-2506-45bc-8e74-37dc70e11a97")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -64,16 +52,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -0.4 -3.575)
-		(end 0.4 -3.575)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "2b749737-8049-405a-a2e3-25a1c345db99")
-	)
 	(fp_rect
 		(start -1.875 -3.9)
 		(end 1.875 3.9)
@@ -81,9 +59,20 @@
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "04efc101-e0c9-45c4-8561-a0b11d69917b")
+	)
+	(fp_rect
+		(start -0.4 -3.9)
+		(end 0.4 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "acd99a03-c1dc-41ac-a4d1-afbd0e48f35c")
 	)
 	(fp_circle
 		(center -2.9 -4.1)
@@ -92,7 +81,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "343d7dc8-31ca-4148-934d-6ae0eaeb8cbd")
 	)
@@ -103,7 +92,7 @@
 			(width 0.01)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "b39b7975-08e7-428e-8a5e-5093d84408fa")
 	)
@@ -114,7 +103,7 @@
 			(width 0.01)
 			(type dash_dot)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b2f66669-a39f-42fa-ad88-4ac34afbf429")
 	)
@@ -407,7 +396,7 @@
 	(pad "1" smd roundrect
 		(at -2.95 -3.575)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.2)
 		(chamfer top_left top_right)
@@ -417,7 +406,7 @@
 	(pad "2" smd roundrect
 		(at -2.95 -2.925)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "2f2ad5bd-c60f-4509-b70d-ff8447e78bd5")
@@ -425,7 +414,7 @@
 	(pad "3" smd roundrect
 		(at -2.95 -2.275)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "b9871579-988b-4397-81c7-6a0a32758a10")
@@ -433,7 +422,7 @@
 	(pad "4" smd roundrect
 		(at -2.95 -1.625)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "b77ea07c-defc-4b46-8072-7b7d6bc9ab4a")
@@ -441,7 +430,7 @@
 	(pad "5" smd roundrect
 		(at -2.95 -0.975)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "e75feb1c-c3fb-40e8-a31a-5736759c4ae6")
@@ -449,7 +438,7 @@
 	(pad "6" smd roundrect
 		(at -2.95 -0.325)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "58b144d0-6814-42b2-8210-cf6781c5859f")
@@ -457,7 +446,7 @@
 	(pad "7" smd roundrect
 		(at -2.95 0.325)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "cca27536-6c90-4870-85e8-d082c89969ed")
@@ -465,7 +454,7 @@
 	(pad "8" smd roundrect
 		(at -2.95 0.975)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "b8029d56-7e84-4cd9-884a-be435b01c58e")
@@ -473,7 +462,7 @@
 	(pad "9" smd roundrect
 		(at -2.95 1.625)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "2d5ca0d1-c349-409a-b103-ead493f50e1d")
@@ -481,7 +470,7 @@
 	(pad "10" smd roundrect
 		(at -2.95 2.275)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "fb57a988-525c-4370-a015-07940e5c3886")
@@ -489,7 +478,7 @@
 	(pad "11" smd roundrect
 		(at -2.95 2.925)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "fc17eee9-eadc-4cf7-b6f1-813503471e0e")
@@ -497,7 +486,7 @@
 	(pad "12" smd roundrect
 		(at -2.95 3.575)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "51f38579-c51f-4863-983e-4f418d813a91")
@@ -505,7 +494,7 @@
 	(pad "13" smd roundrect
 		(at 2.95 3.575)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "380fee85-50cc-4f48-9e74-ad77c76d828d")
@@ -513,7 +502,7 @@
 	(pad "14" smd roundrect
 		(at 2.95 2.925)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "ce9be012-a020-4dcb-88c5-03e951f2b2be")
@@ -521,7 +510,7 @@
 	(pad "15" smd roundrect
 		(at 2.95 2.275)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "024b8f29-b6c9-4644-b3e8-d065f4c93219")
@@ -529,7 +518,7 @@
 	(pad "16" smd roundrect
 		(at 2.95 1.625)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "04e1fce3-f906-4d3a-9bf3-7bef717083f9")
@@ -537,7 +526,7 @@
 	(pad "17" smd roundrect
 		(at 2.95 0.975)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "e17c3fe7-7066-4821-a485-d9b4bdf20c9a")
@@ -545,7 +534,7 @@
 	(pad "18" smd roundrect
 		(at 2.95 0.325)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "a2b7d8ca-41c0-4f05-9ccd-7ca6dcc53831")
@@ -553,7 +542,7 @@
 	(pad "19" smd roundrect
 		(at 2.95 -0.325)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "dbdd2357-a15e-42e4-a430-6388fb025d26")
@@ -561,7 +550,7 @@
 	(pad "20" smd roundrect
 		(at 2.95 -0.975)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "1b58788a-e1a0-4869-82ab-2f98b621e2e5")
@@ -569,7 +558,7 @@
 	(pad "21" smd roundrect
 		(at 2.95 -1.625)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "7ff41d9c-f13a-4339-a8c0-7c3d3d07303c")
@@ -577,7 +566,7 @@
 	(pad "22" smd roundrect
 		(at 2.95 -2.275)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "7ae47135-570f-4504-9756-fcec954ec28e")
@@ -585,7 +574,7 @@
 	(pad "23" smd roundrect
 		(at 2.95 -2.925)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "31cd77d1-c0e1-4708-b349-8eda7c73f045")
@@ -593,11 +582,12 @@
 	(pad "24" smd roundrect
 		(at 2.95 -3.575)
 		(size 1.5 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "736a82bc-6b34-4db0-bca3-49258d5bc958")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-24_4.4x7.8mm_P0.65mm.step"
 		(offset
 			(xyz 0 0 0)
