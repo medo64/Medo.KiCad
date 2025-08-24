@@ -1,7 +1,7 @@
 (footprint "J JST XH S [UART] (3w)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST S3B-XH-A")
 	(property "Reference" "J?"
@@ -25,18 +25,6 @@
 				(size 0.8 0.6)
 				(thickness 0.15)
 				(bold yes)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "90d96bad-c806-49e5-a841-ece46be8304f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -76,16 +64,6 @@
 		(uuid "22e9d4b1-736c-40b1-8901-11f8b0c70c6b")
 	)
 	(fp_line
-		(start -4.4 -0.4)
-		(end -4.4 0.4)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "9fbdda27-8576-4287-b783-658c5b02d3fb")
-	)
-	(fp_line
 		(start 4.8 -2.05)
 		(end 4.8 2.45)
 		(stroke
@@ -96,13 +74,24 @@
 		(uuid "76711a83-8f6e-4948-82a9-9d9cb7b45fac")
 	)
 	(fp_rect
+		(start -4.8 -0.4)
+		(end -4.4 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e0fe2ba3-af97-4112-9de9-5da131b91e4e")
+	)
+	(fp_rect
 		(start -4.8 2.45)
 		(end 4.8 8.95)
 		(stroke
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "2fcb7d93-d38d-47d6-87c5-750322a72da8")
 	)
@@ -113,7 +102,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "fcfe4b85-7f07-4263-8396-43910cbcaca3")
 	)
@@ -124,7 +113,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "1e203657-9ebc-43a2-a610-dea922628486")
 	)
@@ -135,7 +124,7 @@
 			(width 0.01)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "614848d0-5a15-44f8-9994-e39f1756f014")
 	)
@@ -146,7 +135,7 @@
 			(width 0.01)
 			(type dash_dot)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b840074a-c477-4420-b6fd-3c1b4a5cbba1")
 	)
@@ -213,6 +202,7 @@
 		(remove_unused_layers no)
 		(uuid "06e9f537-3413-4f8f-a401-54462f3d7e9e")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal.wrl"
 		(offset
 			(xyz -2.5 0 0)

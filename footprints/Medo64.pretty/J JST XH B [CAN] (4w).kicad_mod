@@ -1,7 +1,7 @@
 (footprint "J JST XH B [CAN] (4w)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST B4B-XH-A")
 	(property "Reference" "J?"
@@ -25,18 +25,6 @@
 				(size 0.8 0.6)
 				(thickness 0.15)
 				(bold yes)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1181c742-6a4b-49e3-8e5b-42274036543f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -65,16 +53,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -5.65 -0.4)
-		(end -5.65 0.4)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "498e1d89-9646-46b1-a88f-ae2a46ec06c7")
-	)
 	(fp_rect
 		(start -6.05 -2.2)
 		(end 6.05 3.25)
@@ -82,9 +60,20 @@
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "2fcb7d93-d38d-47d6-87c5-750322a72da8")
+	)
+	(fp_rect
+		(start -6.05 -0.4)
+		(end -5.65 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8092050f-cf8c-40fa-a256-a581effdb485")
 	)
 	(fp_rect
 		(start -4.1 -2.2)
@@ -93,7 +82,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "fcfe4b85-7f07-4263-8396-43910cbcaca3")
 	)
@@ -104,7 +93,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "1e203657-9ebc-43a2-a610-dea922628486")
 	)
@@ -115,7 +104,7 @@
 			(width 0.01)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "614848d0-5a15-44f8-9994-e39f1756f014")
 	)
@@ -126,7 +115,7 @@
 			(width 0.01)
 			(type dash_dot)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0f7a696e-a324-48ca-ba1e-f89396c63757")
 	)
@@ -213,6 +202,7 @@
 		(remove_unused_layers no)
 		(uuid "f8842f77-e0fd-4b21-b5e2-3b2eb64ecfd4")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.wrl"
 		(offset
 			(xyz -3.75 0 0)

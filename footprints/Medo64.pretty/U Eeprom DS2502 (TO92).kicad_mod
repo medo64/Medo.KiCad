@@ -1,7 +1,7 @@
 (footprint "U Eeprom DS2502 (TO92)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DS2502")
 	(property "Reference" "U?"
@@ -21,19 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "e4559044-3d83-4eda-8a98-4676a5afd96e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "61452932-7fa9-44a8-87a1-f09b2fa516af")
 		(effects
 			(font
 				(size 1 1)
@@ -89,16 +76,6 @@
 		(uuid "0c548026-e0ea-4bed-91af-51f4c0c6e359")
 	)
 	(fp_line
-		(start -2.1 0.2)
-		(end -2.1 -0.2)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "8dc2079e-b68d-4787-97d3-3c56ac996bdc")
-	)
-	(fp_line
 		(start 2.6 0)
 		(end 2.5 1.1)
 		(stroke
@@ -107,6 +84,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "6ef9eeb2-740f-453d-a949-2ed884d56b03")
+	)
+	(fp_rect
+		(start -2.5 -0.4)
+		(end -2.2 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3f73b15b-5bf8-419c-abec-daa36ff00195")
 	)
 	(fp_arc
 		(start -2.6 0)
@@ -223,6 +211,7 @@
 		(remove_unused_layers no)
 		(uuid "544e69be-ec09-471c-9ac4-4bb7b92227d2")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.step"
 		(offset
 			(xyz -1.27 0 0)

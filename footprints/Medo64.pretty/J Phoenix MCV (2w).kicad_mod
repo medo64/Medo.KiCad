@@ -1,7 +1,7 @@
 (footprint "J Phoenix MCV (2w)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Phoenix MCV 1,5/ 2-G-3,81 (1803426)")
 	(property "Reference" "J?"
@@ -25,18 +25,6 @@
 				(size 0.8 0.6)
 				(thickness 0.15)
 				(bold yes)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c2a6b2c8-4a18-4bb8-a26b-6ad1fed738ce")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -65,16 +53,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -3.95 -0.4)
-		(end -3.95 0.4)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "b78982a4-17b5-4d71-ac9d-6fb84d38512a")
-	)
 	(fp_line
 		(start -2.905 -3)
 		(end -2.405 -2.5)
@@ -142,9 +120,20 @@
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "2fcb7d93-d38d-47d6-87c5-750322a72da8")
+	)
+	(fp_rect
+		(start -4.35 -0.4)
+		(end -3.95 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ec351aa0-52ad-4ab7-ade9-ac5a2049158a")
 	)
 	(fp_rect
 		(start -4.605 -4.75)
@@ -153,7 +142,7 @@
 			(width 0.01)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "614848d0-5a15-44f8-9994-e39f1756f014")
 	)
@@ -204,7 +193,7 @@
 			(width 0.01)
 			(type dash_dot)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9247f909-e41e-4c54-8985-a0b7ba3b8ae7")
 	)
@@ -227,6 +216,7 @@
 		(remove_unused_layers no)
 		(uuid "c3c797e1-9d30-4bc2-8f9b-8ca70872919f")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_Phoenix_MC.3dshapes/PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical.wrl"
 		(offset
 			(xyz -1.905 0 0)

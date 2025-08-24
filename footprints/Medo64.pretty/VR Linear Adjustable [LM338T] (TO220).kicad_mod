@@ -1,7 +1,7 @@
 (footprint "VR Linear Adjustable [LM338T] (TO220)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LM338T")
 	(tags "TO254P483X1016X2222-3B")
@@ -25,18 +25,6 @@
 				(size 0.8 0.6)
 				(thickness 0.15)
 				(bold yes)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fe7c9f0b-3aa0-4462-acba-a39fc9830e3b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -84,16 +72,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "728b3f69-0a40-4e8c-a082-99ca00f90f08")
-	)
-	(fp_line
-		(start -4.5 0.4)
-		(end -4.5 -0.4)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7c82e025-635b-4649-845e-a13e09193686")
 	)
 	(fp_line
 		(start 4.7 1.95)
@@ -146,13 +124,24 @@
 		(uuid "fa8bc8bc-22e6-4cdf-a529-a260b4d949da")
 	)
 	(fp_rect
+		(start -4.9 -0.4)
+		(end -4.5 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3ce5b327-5a7e-415b-b687-8aacc5595774")
+	)
+	(fp_rect
 		(start -5.28 -2.9178)
 		(end 5.28 2.3082)
 		(stroke
 			(width 0.01)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "614848d0-5a15-44f8-9994-e39f1756f014")
 	)
@@ -163,7 +152,7 @@
 			(width 0.01)
 			(type dash_dot)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f6615f59-79fa-4c4a-ab11-b71875591031")
 	)
@@ -230,6 +219,7 @@
 		(remove_unused_layers no)
 		(uuid "0cba9798-df61-4031-8bd0-d7b3f387c248")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl"
 		(offset
 			(xyz -2.54 0 0)

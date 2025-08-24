@@ -1,7 +1,7 @@
 (footprint "J JST PH S (3w)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST S2B-PH-K-S")
 	(property "Reference" "J?"
@@ -25,18 +25,6 @@
 				(size 0.8 0.6)
 				(thickness 0.15)
 				(bold yes)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4eba3b15-9835-4675-8f46-4d8944233f8e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -76,16 +64,6 @@
 		(uuid "22e9d4b1-736c-40b1-8901-11f8b0c70c6b")
 	)
 	(fp_line
-		(start -3.35 -0.4)
-		(end -3.35 0.4)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "2d469699-948e-4a52-8efd-f8809f653b41")
-	)
-	(fp_line
 		(start 3.75 5.8)
 		(end -3.75 5.8)
 		(stroke
@@ -106,13 +84,24 @@
 		(uuid "76711a83-8f6e-4948-82a9-9d9cb7b45fac")
 	)
 	(fp_rect
+		(start -3.75 -0.4)
+		(end -3.35 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "13cb8ecd-ffdb-4779-ac5c-0dd50d55957b")
+	)
+	(fp_rect
 		(start -1.8 5.8)
 		(end 1.8 3.8)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "fcfe4b85-7f07-4263-8396-43910cbcaca3")
 	)
@@ -123,7 +112,7 @@
 			(width 0.01)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "614848d0-5a15-44f8-9994-e39f1756f014")
 	)
@@ -134,7 +123,7 @@
 			(width 0.01)
 			(type dash_dot)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b840074a-c477-4420-b6fd-3c1b4a5cbba1")
 	)
@@ -165,6 +154,7 @@
 		(remove_unused_layers no)
 		(uuid "06e9f537-3413-4f8f-a401-54462f3d7e9e")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal.wrl"
 		(offset
 			(xyz -2 0 0)

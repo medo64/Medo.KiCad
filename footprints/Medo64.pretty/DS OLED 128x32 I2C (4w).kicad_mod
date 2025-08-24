@@ -1,7 +1,7 @@
 (footprint "DS OLED 128x32 I2C (4w)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST B2B-XH-A")
 	(property "Reference" "DS?"
@@ -26,18 +26,6 @@
 				(size 0.8 0.6)
 				(thickness 0.15)
 				(bold yes)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "700f1ec2-64b1-42bc-a753-1ec33f405e86")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -87,13 +75,24 @@
 		(uuid "dba2b287-4757-4b66-86e8-7840567883c6")
 	)
 	(fp_rect
+		(start -5.4 -0.4)
+		(end -5 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "efff6da5-8c6f-42ff-85c9-db79684dbe1f")
+	)
+	(fp_rect
 		(start -4.98 -1.17)
 		(end 4.98 1.17)
 		(stroke
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "2fcb7d93-d38d-47d6-87c5-750322a72da8")
 	)
@@ -104,7 +103,7 @@
 			(width 0.01)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "614848d0-5a15-44f8-9994-e39f1756f014")
 	)
@@ -195,7 +194,7 @@
 			(width 0.01)
 			(type dash_dot)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "50616709-9a20-4c07-ad87-0b11ed3233f2")
 	)
@@ -282,6 +281,7 @@
 		(remove_unused_layers no)
 		(uuid "6ee507a4-0f6c-4349-bb1f-2eeaaa1f592e")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
 		(offset
 			(xyz -3.81 -0.127 0)
