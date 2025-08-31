@@ -87,6 +87,17 @@
 		(layer "F.SilkS")
 		(uuid "ff9385bb-0ee2-4395-89fb-a02826b4841b")
 	)
+	(fp_rect
+		(start -7.72 -1.37)
+		(end 7.72 1.37)
+		(stroke
+			(width 0.01)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8693a6a8-d9de-444a-a8b3-92aa42602026")
+	)
 	(fp_circle
 		(center 6.35 0)
 		(end 7.1 0)

@@ -120,6 +120,17 @@
 		(layer "B.SilkS")
 		(uuid "b28c8a3f-3d94-4220-96ad-0088513cb03e")
 	)
+	(fp_rect
+		(start -6.45 -1.37)
+		(end 6.45 1.37)
+		(stroke
+			(width 0.01)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ee154da0-b34e-494b-b8e8-dfc0b99daeb6")
+	)
 	(fp_text user "VDD"
 		(at -2.56 -0.9 0)
 		(layer "Cmts.User" knockout)
