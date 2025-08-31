@@ -306,6 +306,36 @@
 		(layer "F.CrtYd")
 		(uuid "614848d0-5a15-44f8-9994-e39f1756f014")
 	)
+	(fp_line
+		(start 4.01 2.2)
+		(end 3.61 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e8a5a0d-7386-4697-9820-e0ce19e33b31")
+	)
+	(fp_line
+		(start 8.89 2.3)
+		(end 8.89 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6baf198-e0c8-4d98-b81b-1af5dbfce8ab")
+	)
+	(fp_line
+		(start 9.09 2.1)
+		(end 8.69 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7cd9629d-53a2-46f2-b0eb-e96cb5d315ad")
+	)
 	(fp_rect
 		(start -10.6 -0.8)
 		(end 10.6 2.9)
