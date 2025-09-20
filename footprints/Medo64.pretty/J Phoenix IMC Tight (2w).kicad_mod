@@ -1,0 +1,230 @@
+(footprint "J Phoenix IMC Tight (2w)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Phoenix IMC 1,5/ 2-G-3,81 (1862577)")
+	(property "Reference" "J?"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "bec79cc3-c18e-4f33-8f63-02de5a4d133f")
+		(effects
+			(font
+				(size 0.8 0.6)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "IMC 1,5/2"
+		(at 0 -3.1 0)
+		(layer "F.Fab")
+		(uuid "06597a92-7147-4eb6-a011-4f3100c59555")
+		(effects
+			(font
+				(size 0.8 0.6)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba5e8b8a-5b52-430f-bef4-4920f8e5b6cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a43cb1d-ecd2-40b5-87b6-6c83e384bfdb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.905 -4.62)
+		(end -1.905 -4.12)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55b8b689-8ca3-40fd-a7dd-2595e5fa7649")
+	)
+	(fp_line
+		(start 1.905 -4.62)
+		(end 1.905 -4.12)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4331e4b3-a966-4769-a8de-2c21ef5e3884")
+	)
+	(fp_rect
+		(start -4.1 -4.62)
+		(end 4.1 3.03)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2fcb7d93-d38d-47d6-87c5-750322a72da8")
+	)
+	(fp_rect
+		(start -4.1 -0.4)
+		(end -3.7 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ec351aa0-52ad-4ab7-ade9-ac5a2049158a")
+	)
+	(fp_rect
+		(start -4.3 -11.42)
+		(end 4.3 3.23)
+		(stroke
+			(width 0.01)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "614848d0-5a15-44f8-9994-e39f1756f014")
+	)
+	(fp_line
+		(start -2.905 -11.32)
+		(end -0.905 -11.32)
+		(stroke
+			(width 0.01)
+			(type dash_dot)
+		)
+		(layer "F.Fab")
+		(uuid "2d8fc9ed-5f0c-4cc2-9c5a-f0f37c223bd5")
+	)
+	(fp_line
+		(start -2.905 -4.72)
+		(end -2.905 -11.32)
+		(stroke
+			(width 0.01)
+			(type dash_dot)
+		)
+		(layer "F.Fab")
+		(uuid "166b9c64-287c-44c2-a749-5f75f2aaced8")
+	)
+	(fp_line
+		(start -0.905 -4.72)
+		(end -0.905 -11.32)
+		(stroke
+			(width 0.01)
+			(type dash_dot)
+		)
+		(layer "F.Fab")
+		(uuid "29042122-187a-42f9-af72-f1045f75cc5d")
+	)
+	(fp_line
+		(start 0.905 -4.72)
+		(end 0.905 -11.32)
+		(stroke
+			(width 0.01)
+			(type dash_dot)
+		)
+		(layer "F.Fab")
+		(uuid "9ccccac7-999d-42d5-8faa-de56279e90a6")
+	)
+	(fp_line
+		(start 2.905 -11.32)
+		(end 0.905 -11.32)
+		(stroke
+			(width 0.01)
+			(type dash_dot)
+		)
+		(layer "F.Fab")
+		(uuid "8126e6a4-0829-466c-a8a0-d94d3d3d27fc")
+	)
+	(fp_line
+		(start 2.905 -4.72)
+		(end 2.905 -11.32)
+		(stroke
+			(width 0.01)
+			(type dash_dot)
+		)
+		(layer "F.Fab")
+		(uuid "8170497f-0476-40e9-8a3f-62c9de317f81")
+	)
+	(fp_rect
+		(start -4.2 -4.72)
+		(end 4.2 3.13)
+		(stroke
+			(width 0.01)
+			(type dash_dot)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9247f909-e41e-4c54-8985-a0b7ba3b8ae7")
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.905 -1.27)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2)
+		(chamfer top_left bottom_left)
+		(uuid "562e374a-375f-4fd1-aba5-1ef44e5022a7")
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.905 1.27)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2)
+		(chamfer top_left bottom_left)
+		(uuid "baf4b369-a9e5-41de-8fa9-076342d1870f")
+	)
+	(pad "2" thru_hole circle
+		(at 1.9 1.27)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b449c554-a802-4597-b1ab-a92f00c18bb2")
+	)
+	(pad "2" thru_hole circle
+		(at 1.905 -1.27)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c3c797e1-9d30-4bc2-8f9b-8ca70872919f")
+	)
+	(embedded_fonts no)
+	(model "../../3dmodels/Medo64.3dshapes/1862577.step"
+		(offset
+			(xyz -1.9 4.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
