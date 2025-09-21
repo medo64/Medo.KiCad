@@ -1,10 +1,10 @@
-(footprint "K PhotoMOS [CPC1706Y]] (SIP-4)"
+(footprint "AT PhotoMOS [CPC1706Y]] (SIP-4)"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Ixys CPC1706Y")
-	(property "Reference" "K?"
+	(property "Reference" "AT?"
 		(at 0 0.3 0)
 		(layer "F.SilkS")
 		(uuid "90df6459-2b2c-4980-bff8-ec878d9daba3")
