@@ -3,7 +3,6 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "JST B2B-XH-A")
 	(property "Reference" "U?"
 		(at 0 -0.6 0)
 		(layer "F.SilkS")
