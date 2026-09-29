@@ -209,7 +209,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "978fb60e-eec7-4178-8040-78ef6cd08b18")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.step"
 		(offset
 			(xyz -3.75 -2 0.25)
 		)

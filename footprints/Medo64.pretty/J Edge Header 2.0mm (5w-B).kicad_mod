@@ -442,7 +442,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "dedcbf31-c174-4937-a604-da0eee963944")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x05_P2.00mm_Vertical.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x05_P2.00mm_Vertical.step"
 		(offset
 			(xyz -1 4 0.25)
 		)

@@ -160,7 +160,7 @@
 		(uuid "0cba9798-df61-4031-8bd0-d7b3f387c248")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_RECOM_R-78B-2.0_THT.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_RECOM_R-78B-2.0_THT.step"
 		(offset
 			(xyz 2.54 0 0)
 		)

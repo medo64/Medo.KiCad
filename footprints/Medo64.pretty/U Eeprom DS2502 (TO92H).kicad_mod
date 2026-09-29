@@ -163,7 +163,7 @@
 		(remove_unused_layers no)
 		(uuid "544e69be-ec09-471c-9ac4-4bb7b92227d2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_W4.0mm_Horizontal_FlatSideDown.step"
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_W4.0mm_Horizontal_FlatSideDown.step"
 		(offset
 			(xyz -1.27 0 0)
 		)

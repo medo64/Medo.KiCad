@@ -789,7 +789,7 @@
 		(remove_unused_layers no)
 		(uuid "eef5731b-ffc6-4437-8623-11b1a71e5376")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.step"
 		(offset
 			(xyz -3 0 0)
 		)

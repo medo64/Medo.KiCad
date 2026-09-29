@@ -212,7 +212,7 @@
 		(uuid "544e69be-ec09-471c-9ac4-4bb7b92227d2")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.step"
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.step"
 		(offset
 			(xyz -1.27 0 0)
 		)

@@ -319,7 +319,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "eef5731b-ffc6-4437-8623-11b1a71e5376")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_CNCTech_1001-011-01101_Horizontal.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_CNCTech_1001-011-01101_Horizontal.step"
 		(offset
 			(xyz 0 -7 0)
 		)

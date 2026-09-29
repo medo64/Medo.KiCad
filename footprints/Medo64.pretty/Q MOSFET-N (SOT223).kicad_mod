@@ -188,7 +188,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "4380e6d3-33ad-471d-ad38-9b05d535e274")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.step"
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.step"
 		(offset
 			(xyz 0 0 0)
 		)
