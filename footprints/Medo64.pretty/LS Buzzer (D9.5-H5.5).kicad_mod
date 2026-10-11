@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 1.4 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -86,12 +86,28 @@
 		(layer "F.Fab")
 		(uuid "44fa44cf-3b3d-440c-bf72-562f4e4c0e22")
 	)
-	(pad "1" thru_hole circle
+	(fp_text user "+"
+		(at 2.5 -1 0)
+		(layer "F.SilkS")
+		(uuid "0432061f-a0c6-42d2-9aa2-031d7803f62b")
+		(effects
+			(font
+				(size 0.8 0.6)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(pad "1" thru_hole roundrect
 		(at -2.5 0)
 		(size 1.4 1.4)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2)
+		(chamfer top_left bottom_left)
 		(uuid "562e374a-375f-4fd1-aba5-1ef44e5022a7")
 	)
 	(pad "2" thru_hole circle
